@@ -1,0 +1,5 @@
+s1 = set(input('Șirul1 = '))
+s2 = set(input('Șirul2 = '))
+print('Caracterele care se întîlnesc cel puțin în unul dintre șiruri', s1.union(s2))
+print('Caracterele care apar in ambele șiruri', s1.intersection(s2))
+print('Caracterele care apar în primul și nu apar în șirul al doilea', s1.difference(s2))
